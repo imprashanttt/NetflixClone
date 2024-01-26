@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center center;
+    background-size: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.main .box {
+    background: rgba(0, 0, 0, 0.7);
+    height: max(1200px, 100vw);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.box nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: 12px auto;
+}
+
+.box nav img {
+    width: 213px;
+    position:relative;
+    z-index:10;
+}
+
+.bottons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottons .lang {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 22px;
+    padding: 0 30px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.bottons .sign-In {
+    color: white;
+    font-size: 18px;
+    background: red;
+    padding: 5px 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.box .frontsec {
+    max-width: 60vw;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+    position:relative;
+    top:40px;
+}
+
+.one {
+    font-size: 37px;
+    font-weight: 900;
+}
+
+.two {
+    font-size: 37px;
+    font-weight: 900;
+}
+
+.three {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.four {
+    font-size: 20px;
+    font-weight: 400;
+}
+.emailfield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60vw;
+    position: relative;
+    top: 124px;
+    margin: 0 auto;
+}
+.emailfield .getstarteds{
+    padding:9px 30px;
+    margin-left:15px;
+    color:white;
+    font-size:23px;
+    border:none;
+    border-radius:3px;
+    background-color:red;
+    font-weight: 600;
+    
+
+}
+.emailfield input{
+    padding:9px 47px;
+    color:white;
+    font-size:23px;
+    border:1px solid white;
+    border-radius:3px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.speration{
+    height:8px;
+    background-color: #2d2d2d;
+}
+.maintxt{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.maintxt .helper{
+    font-size:21px;
+    font-weight:500;
+}
+.maintxt .new{
+    font-size:44px;
+    margin:0 94px 0 0;
+    font-weight:800;
+
+    
+}
+.informationsite{
+    position:relative;
+    display:Flex;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    color:white;
+    margin:0 auto;
+}
+.imgsection img{
+    width:522px;
+    position:relative;
+    z-index:10;
+
+
+}
+.imgsection video {
+    position: absolute;
+    width: 381px;
+    top: 80px;
+    right: 73px;
+
+
+
+}
+.imgsection .video1 {
+    position: absolute;
+    width: 311px;
+    top: 40px;
+    right: 105px;
+}
+.newimg {
+    position: relative;
+    padding: 16px 9px;
+    border: 2px solid #ffffff3d;
+    max-width: 301px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 13px;
+    top: 367px;
+    left: 103px;
+    z-index: 12;
+    background: black;
+}
+.newimg img{
+    width:49px;
+
+}
+.newimg .io{
+    font-size:23px;
+    font-weight: 600;
+}
+.newimg .io2{
+    font-size:20px;
+    font-weight:400;
+    color:blue;
+
+}
+.newvideo img{
+    filter:invert(1)
+}
+.questions{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:800px;
+    width:80vw;
+    margin:0 auto;
+    color:white;
+}
+.questions h3{
+    margin-top:43px;
+    text-align: center;
+    font-size: 44px;
+    font-weight:900;
+}
+.faqcontainer div{
+    font-size:19px;
+    font-weight: 200;
+    padding: 10px 0 16px 25px;
+    position:relative;
+    z-index: 11;
+}
+.faqcontainer .svgfile{
+    position:relative;
+    z-index: 11;
+
+}
+
+
+.questions .faqcontainer{
+
+    position:relative;
+    z-index: 11;
+    width:80vw;
+    margin-top:15px;
+    background-color: #2d2d2d;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:72px;
+    
+}
+.questions .faqcontainer:hover{
+    background-color: rgba(128, 128, 128, 0.438);
+
+}
+p{
+    font-size: 20px;
+    font-weight:400;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.u {
+    position:relative;
+    top:10px;
+}
+.u .bottom{
+    padding:8px 112px;
+}
+.footer{
+    height:233px;
+}
